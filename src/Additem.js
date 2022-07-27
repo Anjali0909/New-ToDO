@@ -5,8 +5,8 @@ function AddItem({newItem, setNewItem, handleSubmit}) {
     const inputRef = useRef();
   return (
     <form className='addItem' onSubmit={handleSubmit}>
-        <label htmlFor='addItem'>Add Item</label>
-        <input 
+        <label htmlFor='addItem' className='new'>Add Item</label>
+        <input className='form-control'
             autoFocus
             ref={inputRef}
             type="text" 
@@ -16,7 +16,7 @@ function AddItem({newItem, setNewItem, handleSubmit}) {
             value={newItem}
             onChange= {(e) => setNewItem(e.target.value)}
         />
-        <button
+        <button className='btn'
             type='submit'
             onClick ={() => inputRef.current.focus()}
         >Add</button>

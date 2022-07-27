@@ -1,2 +1,2 @@
-# TodoApp-React- (titled Grocery App)
-Simple Todo App built on check Box, with instant search using .Filter Higher Order Function
+# TodoApp-React-By Anjali Badlani
+Hello World, this is the Task Tracker Application, it will help you to manage your schedule, by assigning the task, deleting them, setting up the reminder.

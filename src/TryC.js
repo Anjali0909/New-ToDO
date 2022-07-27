@@ -10,12 +10,12 @@ const Content = () => {
         {
             id: 2,
             checked: false,
-            item:"ha"
+            item:"Wafers"
         },
         {
             id: 3,
             checked: false,
-            item:"ho"
+            item:"Pringles"
         }
     ]);
 

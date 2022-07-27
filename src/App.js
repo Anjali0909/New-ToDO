@@ -13,7 +13,7 @@ function App() {
     //    [ {
     //         id: 1,
     //         checked: false,
-    //         item:"Coacoa covered  almonds unsalted"
+    //         item:"item1"
     //     },
     //     {
     //         id:2,
